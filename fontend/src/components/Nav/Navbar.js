@@ -12,7 +12,7 @@ const Navbar = () => {
           src={logo}
           alt="logo"
           width={200}
-          className="hover:animate-[wiggle_0.3s_ease-in-out_infinite] pt-10 lg:pt-0 pl-5 lg:pl-0"
+          className="pt-10 lg:pt-0 pl-5 lg:pl-0"
         />
         <div></div>
       </div>
