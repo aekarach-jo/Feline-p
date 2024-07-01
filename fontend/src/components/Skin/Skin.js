@@ -17,9 +17,9 @@ const Skin = () => {
   };
 
   return (
-    <div className="mt-4">
-      <input type="file" onChange={handleFileChange} />
-      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 rounded" onClick={handleAnalyze}>Analyze Skin</button>
+    <div className="mt-4 w-100">
+      <input className="w-60" type="file" onChange={handleFileChange} />
+      <button className="w-40 bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 rounded" onClick={handleAnalyze}>Analyze Skin</button>
       {analysisResult && (
         <div className="mt-4">
           <h2>Analysis Result</h2>
