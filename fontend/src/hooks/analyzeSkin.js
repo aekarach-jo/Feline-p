@@ -14,7 +14,7 @@ export const analyzeSkin = async (image) => {
           features: [
             {
               type: "LABEL_DETECTION",
-              maxResults: 10
+              maxResults: 20
             }
           ]
         }
