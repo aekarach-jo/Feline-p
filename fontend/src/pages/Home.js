@@ -6,9 +6,9 @@ import Skin from "../components/Skin/Skin";
 const Home = () => {
   return (
     <div>
-      {/* <Banner />
-      <ContentCategoty /> */}
-      <Skin />
+      <Banner />
+      <ContentCategoty />
+      {/* <Skin /> */}
     </div>
   );
 };
